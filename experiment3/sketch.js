@@ -60,7 +60,7 @@ class Raindrop {
     this.y = random(-500, height);
     this.z = random(0, 20); // Depth effect
     this.size = map(this.z, 0, 20, 3, 8); // Smaller teardrop size
-    this.speed = map(this.z, 0, 10, 4, 10); // Speed varies with depth
+    this.speed = map(this.z, 0, 5, 4, 5); // Speed varies with depth
     this.windEffect = 0;
   }
 
